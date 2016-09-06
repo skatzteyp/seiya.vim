@@ -21,6 +21,7 @@ function! s:clear_bg_all()
   call s:clear_bg('SignColumn')
   call s:clear_bg('VertSplit')
   call s:clear_bg('NonText')
+  call s:clear_bg('SpecialKey')
 endfunction
 
 function! s:clear_auto()
